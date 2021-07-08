@@ -104,8 +104,9 @@ function generatePassword(){
       passwordChar = passwordChar.concat(pool[randomNum]);
       console.log(passwordChar);
   }
-
   
+  alert("Your password is " + passwordChar.join(""));
+
 }
 
 
